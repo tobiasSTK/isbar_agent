@@ -111,16 +111,27 @@ export default function Page() {
             formData.append("audio", audioBlob, "recording.mp3");
             try {
                 const response = await fetch("http://127.0.0.1:5000/transcribe", {
-                method: "POST",
-                body: formData,
+                    method: "POST",
+                    body: formData,
                 });
                 if (!response.ok) {
                     throw new Error("Failed to upload audio");
                 }
                 let isbar = await response.json()
+                let isbarNote = {date: new Date().toUTCString(), isbar: isbar}
                 //{"Identificar":"Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.","Situacion":"El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.","Antecedentes":"Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.","Evaluacion":"Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.","Recomendacion":"Se solicita radiografía de tórax urgente y análisis de gases en sangre."}
-                let isbarString = "Identificar: " + isbar.Identificar + "\nSituacion: " + isbar.Situacion + "\nAntecedentes: " + isbar.Antecedentes + "\nEvaluacion: " + isbar.Evaluacion + "\nRecomendacion: " + isbar.Recomendacion
-                setNotasIsbar(prevNotas => [isbarString, ...prevNotas]);
+                setNotasIsbar(prevNotas => [isbarNote, ...prevNotas]);
+                const newNoteResponse = await fetch("http://127.0.0.1:5000/new_patient_note", {
+                    method: "POST",
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        "patient_id": patients[selectedPatient].id,
+                        "note": isbarNote
+                    }),
+                });
+                if (!newNoteResponse.ok) {
+                    throw new Error("Failed to save new note");
+                }
             } catch (error) {
                 console.error("Error uploading audio:", error);
             }

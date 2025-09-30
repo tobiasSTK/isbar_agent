@@ -7,19 +7,63 @@
     "notes": [
       {
         "date": "2023-10-26T10:00:00Z",
-        "isbar": {"Identificar":"Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.","Situacion":"El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.","Antecedentes":"Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.","Evaluacion":"Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.","Recomendacion":"Se solicita radiografía de tórax urgente y análisis de gases en sangre."}
+        "isbar": {
+          "Identificar": "Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.",
+          "Situacion": "El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.",
+          "Antecedentes": "Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.",
+          "Evaluacion": "Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.",
+          "Recomendacion": "Se solicita radiografía de tórax urgente y análisis de gases en sangre."
+        }
       },
       {
         "date": "2023-10-27T14:30:00Z",
-        "isbar": {"Identificar":"Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.","Situacion":"El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.","Antecedentes":"Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.","Evaluacion":"Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.","Recomendacion":"Se solicita radiografía de tórax urgente y análisis de gases en sangre."}
+        "isbar": {
+          "Identificar": "Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.",
+          "Situacion": "El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.",
+          "Antecedentes": "Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.",
+          "Evaluacion": "Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.",
+          "Recomendacion": "Se solicita radiografía de tórax urgente y análisis de gases en sangre."
+        }
       },
       {
         "date": "2023-10-28T09:15:00Z",
-        "isbar": {"Identificar":"Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.","Situacion":"El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.","Antecedentes":"Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.","Evaluacion":"Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.","Recomendacion":"Se solicita radiografía de tórax urgente y análisis de gases en sangre."}
+        "isbar": {
+          "Identificar": "Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.",
+          "Situacion": "El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.",
+          "Antecedentes": "Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.",
+          "Evaluacion": "Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.",
+          "Recomendacion": "Se solicita radiografía de tórax urgente y análisis de gases en sangre."
+        }
       },
       {
         "date": "2023-10-29T11:00:00Z",
-        "isbar": {"Identificar":"Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.","Situacion":"El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.","Antecedentes":"Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.","Evaluacion":"Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.","Recomendacion":"Se solicita radiografía de tórax urgente y análisis de gases en sangre."}
+        "isbar": {
+          "Identificar": "Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.",
+          "Situacion": "El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.",
+          "Antecedentes": "Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.",
+          "Evaluacion": "Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.",
+          "Recomendacion": "Se solicita radiografía de tórax urgente y análisis de gases en sangre."
+        }
+      },
+      {
+        "date": "Tue, 30 Sep 2025 20:53:13 GMT",
+        "isbar": {
+          "Antecedentes": "Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.",
+          "Evaluacion": "Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.",
+          "Identificar": "Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.",
+          "Recomendacion": "Se solicita radiografía de tórax urgente y análisis de gases en sangre.",
+          "Situacion": "El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%."
+        }
+      },
+      {
+        "date": "Tue, 30 Sep 2025 20:56:28 GMT",
+        "isbar": {
+          "Identificar": "Paciente Alicia Smith, mujer, de 65 años.",
+          "Situacion": "Ingresada a emergencias por dolor torácico subesternal irradiado al brazo izquierdo hace tres horas.",
+          "Antecedentes": "Antecedentes de hipertensión arterial y diabetes mellitus tipo 2 sin alergias conocidas.",
+          "Evaluacion": "Estable, consciente y orientada, con dolor descrito como 2/10. Signos vitales: TA 140/90, FC 98, FR 18, Sat O2 96% con aire ambiente.",
+          "Recomendacion": "Monitoreo continuo en la unidad de cardiología, realizar un nuevo SG al llegar, iniciar goteo de nitroglicerina, monitoreo frecuente de signos vitales y revisión por el cardiólogo por la mañana."
+        }
       }
     ]
   },
@@ -31,15 +75,33 @@
     "notes": [
       {
         "date": "2023-10-25T08:00:00Z",
-        "isbar": {"Identificar":"Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.","Situacion":"El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.","Antecedentes":"Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.","Evaluacion":"Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.","Recomendacion":"Se solicita radiografía de tórax urgente y análisis de gases en sangre."}
+        "isbar": {
+          "Identificar": "Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.",
+          "Situacion": "El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.",
+          "Antecedentes": "Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.",
+          "Evaluacion": "Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.",
+          "Recomendacion": "Se solicita radiografía de tórax urgente y análisis de gases en sangre."
+        }
       },
       {
         "date": "2023-10-27T16:00:00Z",
-        "isbar": {"Identificar":"Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.","Situacion":"El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.","Antecedentes":"Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.","Evaluacion":"Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.","Recomendacion":"Se solicita radiografía de tórax urgente y análisis de gases en sangre."}
+        "isbar": {
+          "Identificar": "Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.",
+          "Situacion": "El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.",
+          "Antecedentes": "Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.",
+          "Evaluacion": "Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.",
+          "Recomendacion": "Se solicita radiografía de tórax urgente y análisis de gases en sangre."
+        }
       },
       {
         "date": "2023-10-29T10:30:00Z",
-        "isbar": {"Identificar":"Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.","Situacion":"El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.","Antecedentes":"Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.","Evaluacion":"Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.","Recomendacion":"Se solicita radiografía de tórax urgente y análisis de gases en sangre."}
+        "isbar": {
+          "Identificar": "Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.",
+          "Situacion": "El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.",
+          "Antecedentes": "Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.",
+          "Evaluacion": "Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.",
+          "Recomendacion": "Se solicita radiografía de tórax urgente y análisis de gases en sangre."
+        }
       }
     ]
   },
@@ -51,23 +113,53 @@
     "notes": [
       {
         "date": "2023-10-24T13:00:00Z",
-        "isbar": {"Identificar":"Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.","Situacion":"El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.","Antecedentes":"Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.","Evaluacion":"Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.","Recomendacion":"Se solicita radiografía de tórax urgente y análisis de gases en sangre."}
+        "isbar": {
+          "Identificar": "Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.",
+          "Situacion": "El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.",
+          "Antecedentes": "Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.",
+          "Evaluacion": "Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.",
+          "Recomendacion": "Se solicita radiografía de tórax urgente y análisis de gases en sangre."
+        }
       },
       {
         "date": "2023-10-26T09:45:00Z",
-        "isbar": {"Identificar":"Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.","Situacion":"El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.","Antecedentes":"Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.","Evaluacion":"Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.","Recomendacion":"Se solicita radiografía de tórax urgente y análisis de gases en sangre."}
+        "isbar": {
+          "Identificar": "Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.",
+          "Situacion": "El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.",
+          "Antecedentes": "Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.",
+          "Evaluacion": "Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.",
+          "Recomendacion": "Se solicita radiografía de tórax urgente y análisis de gases en sangre."
+        }
       },
       {
         "date": "2023-10-28T15:20:00Z",
-        "isbar": {"Identificar":"Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.","Situacion":"El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.","Antecedentes":"Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.","Evaluacion":"Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.","Recomendacion":"Se solicita radiografía de tórax urgente y análisis de gases en sangre."}
+        "isbar": {
+          "Identificar": "Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.",
+          "Situacion": "El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.",
+          "Antecedentes": "Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.",
+          "Evaluacion": "Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.",
+          "Recomendacion": "Se solicita radiografía de tórax urgente y análisis de gases en sangre."
+        }
       },
       {
         "date": "2023-10-30T10:00:00Z",
-        "isbar": {"Identificar":"Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.","Situacion":"El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.","Antecedentes":"Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.","Evaluacion":"Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.","Recomendacion":"Se solicita radiografía de tórax urgente y análisis de gases en sangre."}
+        "isbar": {
+          "Identificar": "Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.",
+          "Situacion": "El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.",
+          "Antecedentes": "Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.",
+          "Evaluacion": "Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.",
+          "Recomendacion": "Se solicita radiografía de tórax urgente y análisis de gases en sangre."
+        }
       },
       {
         "date": "2023-10-31T11:00:00Z",
-        "isbar": {"Identificar":"Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.","Situacion":"El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.","Antecedentes":"Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.","Evaluacion":"Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.","Recomendacion":"Se solicita radiografía de tórax urgente y análisis de gases en sangre."}
+        "isbar": {
+          "Identificar": "Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.",
+          "Situacion": "El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.",
+          "Antecedentes": "Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.",
+          "Evaluacion": "Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.",
+          "Recomendacion": "Se solicita radiografía de tórax urgente y análisis de gases en sangre."
+        }
       }
     ]
   },
@@ -79,11 +171,23 @@
     "notes": [
       {
         "date": "2023-10-23T11:00:00Z",
-        "isbar": {"Identificar":"Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.","Situacion":"El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.","Antecedentes":"Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.","Evaluacion":"Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.","Recomendacion":"Se solicita radiografía de tórax urgente y análisis de gases en sangre."}
+        "isbar": {
+          "Identificar": "Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.",
+          "Situacion": "El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.",
+          "Antecedentes": "Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.",
+          "Evaluacion": "Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.",
+          "Recomendacion": "Se solicita radiografía de tórax urgente y análisis de gases en sangre."
+        }
       },
       {
         "date": "2023-10-26T17:00:00Z",
-        "isbar": {"Identificar":"Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.","Situacion":"El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.","Antecedentes":"Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.","Evaluacion":"Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.","Recomendacion":"Se solicita radiografía de tórax urgente y análisis de gases en sangre."}
+        "isbar": {
+          "Identificar": "Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.",
+          "Situacion": "El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.",
+          "Antecedentes": "Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.",
+          "Evaluacion": "Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.",
+          "Recomendacion": "Se solicita radiografía de tórax urgente y análisis de gases en sangre."
+        }
       }
     ]
   },
@@ -95,15 +199,53 @@
     "notes": [
       {
         "date": "2023-10-25T12:00:00Z",
-        "isbar": {"Identificar":"Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.","Situacion":"El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.","Antecedentes":"Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.","Evaluacion":"Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.","Recomendacion":"Se solicita radiografía de tórax urgente y análisis de gases en sangre."}
+        "isbar": {
+          "Identificar": "Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.",
+          "Situacion": "El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.",
+          "Antecedentes": "Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.",
+          "Evaluacion": "Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.",
+          "Recomendacion": "Se solicita radiografía de tórax urgente y análisis de gases en sangre."
+        }
       },
       {
         "date": "2023-10-27T08:30:00Z",
-        "isbar": {"Identificar":"Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.","Situacion":"El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.","Antecedentes":"Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.","Evaluacion":"Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.","Recomendacion":"Se solicita radiografía de tórax urgente y análisis de gases en sangre."}
+        "isbar": {
+          "Identificar": "Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.",
+          "Situacion": "El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.",
+          "Antecedentes": "Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.",
+          "Evaluacion": "Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.",
+          "Recomendacion": "Se solicita radiografía de tórax urgente y análisis de gases en sangre."
+        }
       },
       {
         "date": "2023-10-29T14:00:00Z",
-        "isbar": {"Identificar":"Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.","Situacion":"El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.","Antecedentes":"Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.","Evaluacion":"Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.","Recomendacion":"Se solicita radiografía de tórax urgente y análisis de gases en sangre."}
+        "isbar": {
+          "Identificar": "Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.",
+          "Situacion": "El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.",
+          "Antecedentes": "Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.",
+          "Evaluacion": "Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.",
+          "Recomendacion": "Se solicita radiografía de tórax urgente y análisis de gases en sangre."
+        }
+      },
+      {
+        "date": "2023-10-26T10:00:00Z",
+        "isbar": {
+          "Identificar": "Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.",
+          "Situacion": "El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.",
+          "Antecedentes": "Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.",
+          "Evaluacion": "Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.",
+          "Recomendacion": "Se solicita radiografía de tórax urgente y análisis de gases en sangre."
+        }
+      },
+      {
+        "date": "2023-10-26T10:00:00Z",
+        "isbar": {
+          "Identificar": "Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.",
+          "Situacion": "El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.",
+          "Antecedentes": "Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.",
+          "Evaluacion": "Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.",
+          "Recomendacion": "Se solicita radiografía de tórax urgente y análisis de gases en sangre."
+        }
       }
     ]
   }

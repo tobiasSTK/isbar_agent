@@ -69,7 +69,7 @@ CORS(app)
 
 @app.route('/transcribe', methods=['POST'])
 def transcribe():
-    return {"Identificar":"Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.","Situacion":"El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.","Antecedentes":"Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.","Evaluacion":"Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.","Recomendacion":"Se solicita radiografía de tórax urgente y análisis de gases en sangre."}
+    # return {"Identificar":"Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.","Situacion":"El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.","Antecedentes":"Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.","Evaluacion":"Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.","Recomendacion":"Se solicita radiografía de tórax urgente y análisis de gases en sangre."}
     try:
         # Recbir audio en base64
         # audio_base64 = request.json["audio_base64"]
@@ -135,6 +135,39 @@ def get_patient_notes():
     except Exception as e:
         print(f"Error reading patients.json: {e}")
         return {"error": "Could not read patients.json"}, 500
+
+@app.route('/new_patient_note', methods=['POST'])
+def new_patient_note():
+    try:
+        if 'note' in request.json:
+            if 'patient_id' not in request.json:
+                return {"error": "No patient_id in request."}, 400
+            note = request.json['note']
+            patient_id = request.json['patient_id']
+            with open('./assets/patients.json', 'r+', encoding='utf-8') as f:
+                patients: list = json.load(f)
+                for patient in patients:
+                    if patient.get('id') == patient_id:
+                        patient['notes'].append(note)
+                        break
+                else:
+                    return {"error": "Patient not found."}, 404
+                f.seek(0)
+                f.truncate()
+                json.dump(patients, f, ensure_ascii=False, indent=2)
+                return {"success": True}, 200
+        else:
+            print("No note in request.")
+            # file = open("./assets/test_audio.mp3", "rb")
+            # transcript = client.audio.transcriptions.create(
+            #     model="whisper",
+            #     file=file
+            # )
+            return {"error": "No note in request."}, 400
+        # print(f"Transcript: {transcript.text}")
+    except Exception as e:
+        print(f"Error saving the patient note: {e}")
+        return {"error": "Could not save the patient note"}, 500
 
 @app.route('/get_messages', methods=['GET'])
 def get_messages():
