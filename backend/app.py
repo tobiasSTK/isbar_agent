@@ -5,6 +5,7 @@ from openai import AzureOpenAI, OpenAI
 from dotenv import load_dotenv
 import os
 import time
+import json
 
 load_dotenv()
 AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")
@@ -67,7 +68,8 @@ app = Flask(__name__)
 CORS(app)
 
 @app.route('/transcribe', methods=['POST'])
-async def transcribe():
+def transcribe():
+    return {"Identificar":"Doctor de Unidad de Cardiología respecto al Sr. Juan Pérez.","Situacion":"El paciente muestra dificultad respiratoria aguda con saturación de oxígeno baja al 88%.","Antecedentes":"Paciente ingresado hace tres días por neumonía, evolución estable hasta ahora.","Evaluacion":"Condición empeorada; evaluación inicial incluye dificultad respiratoria, saturación y presión arterial.","Recomendacion":"Se solicita radiografía de tórax urgente y análisis de gases en sangre."}
     try:
         # Recbir audio en base64
         # audio_base64 = request.json["audio_base64"]
@@ -113,6 +115,26 @@ async def transcribe():
     except Exception as e:
         print(f"Error: {e}")
         return {"error": e}, 400
+
+@app.route('/get_patients', methods=['GET'])
+def get_patients():
+    try:
+        with open('./assets/patients.json', 'r', encoding='utf-8') as f:
+            patients = json.load(f)
+        return patients, 200
+    except Exception as e:
+        print(f"Error reading patients.json: {e}")
+        return {"error": "Could not read patients.json"}, 500
+    
+@app.route('/get_patient_notes', methods=['GET'])
+def get_patient_notes():
+    try:
+        with open('./assets/patients.json', 'r', encoding='utf-8') as f:
+            patients = json.load(f)
+        return patients
+    except Exception as e:
+        print(f"Error reading patients.json: {e}")
+        return {"error": "Could not read patients.json"}, 500
 
 @app.route('/get_messages', methods=['GET'])
 def get_messages():

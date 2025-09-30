@@ -30,7 +30,7 @@ export default function HomePage() {
                 <button onClick={useMessagesHook.getMessages}>
                     Obtener Mensajes
                 </button>
-                <button onClick={logMessages}>
+                <button onClick={logMessages} className="w-full max-w-md space-y-6">
                     Log Mensajes
                 </button>
                 <Recorder

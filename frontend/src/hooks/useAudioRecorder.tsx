@@ -26,7 +26,7 @@ export const useAudioRecorder = () => {
                 setSeconds(prev => prev + 1)
             }, 1000)
 
-            recorder.onstop = () => {
+            recorder.onstop = (): Blob => {
                 const blob = new Blob(audioChunks, { type: "audio/mp3" });
                 setAudioBlob(blob);
                 const url = URL.createObjectURL(blob)
@@ -34,6 +34,7 @@ export const useAudioRecorder = () => {
                 stream.getTracks().forEach((track) => track.stop());
                 setAudioChunks([]);
                 clearTimeout(timer)
+                return blob
             };
 
             recorder.start();
@@ -43,7 +44,22 @@ export const useAudioRecorder = () => {
         }
     };
 
-    const stopRecording = () => {
+    const stopRecording = (): Promise<any> => {
+        return new Promise((resolve) => {
+            if (mediaRecorder && isRecording) {
+                const originalOnStop = mediaRecorder.onstop;
+                mediaRecorder.onstop = (event) => {
+                    let test = null
+                    if (originalOnStop) {
+                        test = originalOnStop.call(mediaRecorder, event);
+                    }
+                    resolve(test);
+                }
+                mediaRecorder.stop()
+            } else {
+                resolve(null);
+            }
+        })
         if (mediaRecorder && isRecording) {
             mediaRecorder.stop();
             setIsRecording(false);
@@ -61,9 +77,16 @@ export const useAudioRecorder = () => {
 
     const toggleRecording = async () => {
         if (isRecording) {
-            stopRecording();
+            let recorderResult = await stopRecording()
+            // stopRecording().then((value) => {
+            //     console.log("Recording stopped with value:", value);
+            // })
+            setIsRecording(false);
+            setMediaRecorder(null);
+            return recorderResult
         } else {
             await startRecording();
+            return null
         }
     };
 
